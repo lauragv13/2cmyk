@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+        <title>C M Y K</title>
+        <!-- enllaçar font servidor --> 
+        <style type="text/css">
+            /*FONTS LOCAL*/
+            /*
+            1. Archius que estiguen en la carpeta local del llocweb
+            2.@font-face enllacem els archius de font: eot, ttf, svg, wof
+            3.Construir la propietat: font-family: 'nom de la tipo' que hem creat
+            */
+            
+            @font-face{
+                font-family:'oswald';
+                src:url('fonts/oswald/Oswald-Bold-Cut.svg'),
+                    url('fonts/oswald/Oswald-Bold-Cut.eot'),
+                    url('fonts/oswald/Oswald-Bold-Cut.ttf'),
+                    url('fonts/oswald/Oswald-Bold-Cut.woff');
+            }
+
+            /*reset*/
+            *{
+                margin:0;
+                padding:0;
+            }
+            /*fontsafe*/
+            /*fontslocal*/
+            h1,h2,h3,h4{
+                padding:20vh 0 0 0;
+                float:left;
+                text-align: center;
+                width:50%;
+                height:30vh;
+                font-size:60px;
+            }
+            h1 {
+                background-color: cyan;
+                font-family: 'Ubuntu', sans-serif;
+            }
+            h2{
+                background-color: magenta;
+                font-family:'oswald';
+            }
+            h3{
+                background-color: yellow;
+                font-family: "Impact", "Charcoal", sans-serif;
+            }
+            h4{
+                background-color: black;
+                font-family: "Arial Black", sans-serif;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <a href="pages/c.html"><h1>C</h1></a>
+        <a href="pages/m.html"><h2>M</h2></a>
+        <a href="pages/y.html"><h3>Y</h3></a>
+        <a href="pages/k.html"><h4 style="color:white;">K</h4></a>
+    
+    </body>
+</html>
